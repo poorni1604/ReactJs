@@ -50,6 +50,36 @@ for(i=0;i<a;i++){
     console.log(i)
 }
 //array
-array=[10,20]
-array.forEach(element => console.log(element))
+/* array=[10,20]
+array.forEach(element => console.log(element)) */
+
+//Array
+
+const array = [10,20,"KSP",23.08,Date()]
+console.log("Before change :")
+for (var ele in array){
+    console.log(array[ele])
+}
+console.log("After change :")
+array.push("3rd year")
+
+for (var ele of array){
+    console.log(ele)
+}
+array.pop()
+array.pop()
+array.pop()
+if(array.length>0){
+    console.log("elements are present")
+    for (var ele of array){
+        console.log(ele)
+    }
+}
+else{
+    console.log("no elements left!")
+}
+
+
+
+
 
