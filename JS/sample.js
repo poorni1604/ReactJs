@@ -77,9 +77,34 @@ if(array.length>0){
 }
 else{
     console.log("no elements left!")
+
 }
+//Objects
 
+a = {
+    car:"Audi",
+    model: "ABC",
+    airbags : b,
+    wheels : 5,
+    color : "blue"
 
+}
+console.log(a['color'])
+console.log(a.airbags)
+var some = 'model'
+console.log("Value of some"+a[some])
+console.log(a)
+/* a.sunroof = "Yes"
+console.log(a) 
+a.sunroof = {isPresent: "Yes",Shape: "Rectangle"}
+console.log(a)
+console.log(a.sunroof.isPresent) */
+
+//function
+function fun_name(a,b){
+    console.log(a+b+5+"ksp"+5+5)
+}
+fun_name(5,5)
 
 
 
