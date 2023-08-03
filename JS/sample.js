@@ -14,3 +14,11 @@ let b = 128;
 console.log("This is the value declared in the let type: ",b);
 const r = 20;
 console.log("This is the value declared in the const type: ",r)
+
+a = 10
+if (a > 0){
+    console.log("The number is positive")
+}
+else{
+    console.log("The number is negative")
+}
