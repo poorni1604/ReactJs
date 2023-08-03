@@ -1,0 +1,33 @@
+html{
+    font-size: 24px;
+}
+p{
+    color: beige;
+}
+/* #This for univerversal designing */
+body{
+    padding:20px;
+    min-height: 200vh;
+}
+.container{
+    border:2px brown;
+    max-width: 900px;
+    min-height: 50px;
+    margin-inline: auto;
+    display:flex;
+    gap: irem;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box{
+    height: 100px;
+    background-color: blanchedalmond;
+    color:rgb(193, 136, 68);
+    font-size: 2rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 200px
+}
